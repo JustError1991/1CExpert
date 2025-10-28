@@ -1,0 +1,1 @@
+cat rphost*/*.log | perl call.pl | awk -F'-' '{duration[$2]+=$1; count[$2]+=1;} END {for (i in duration) {print "SumDuration=" duration[i]/1000000 " sec;   \tAvgDuration=" duration[i]/count[i]/1000000 " sec;   \tNumb=" count[i] ";   \t" i}}' | sort -rnb  | head -n 25

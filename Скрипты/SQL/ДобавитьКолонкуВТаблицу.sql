@@ -1,0 +1,19 @@
+ALTER TABLE [dbo].[_AccumRg20361] add [_Fld20376] NUMERIC(1,0) DEFAULT 0 NOT NULL
+
+ALTER TABLE [ERP].[dbo].[_Reference698X1]
+add [_Fld113094] NUMERIC (4,0) NULL
+--add [_Fld113075] BINARY (1) NULL
+--add [_Fld112122] NVARCHAR (36) NULL
+
+UPDATE [ERP].[dbo].[_Reference698X1]
+SET [_Fld113094] = 0
+--SET [_Fld113075] = 0x00
+--SET [_Fld112122] = ''
+--SET [_Fld112044RRef] = 0x00000000000000000000000000000000
+
+ALTER TABLE [ERP].[dbo].[_Reference698X1]
+alter column [_Fld113094] NUMERIC (4,0) NOT NULL
+--alter column [_Fld113075] BINARY (1) NOT NULL
+--alter column [_Fld112122] NVARCHAR (36) NOT NULL
+
+

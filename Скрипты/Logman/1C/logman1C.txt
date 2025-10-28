@@ -1,0 +1,26 @@
+\PhysicalDisk(*)\Avg. Disk Queue Length
+\PhysicalDisk(*)\Avg. Disk sec/Write
+\PhysicalDisk(*)\Avg. Disk sec/Read
+\PhysicalDisk(*)\Avg. Disk Bytes/Read
+\PhysicalDisk(*)\Avg. Disk Bytes/Write
+\PhysicalDisk(*)\Disk Read Bytes/sec
+\PhysicalDisk(*)\Disk Write Bytes/sec
+\PhysicalDisk(*)\Avg. Disk sec/Transfer
+\LogicalDisk(*)\Free Megabytes
+\Memory\Available Mbytes
+\Memory\Pages/sec
+\Process(1cv8*)\% Processor Time
+\Process(1cv8*)\Private Bytes
+\Process(1cv8*)\Virtual Bytes
+\Process(ragent*)\% Processor Time
+\Process(ragent*)\Private Bytes
+\Process(ragent*)\Virtual Bytes
+\Process(rphost*)\% Processor Time
+\Process(rphost*)\Private Bytes
+\Process(rphost*)\Virtual Bytes
+\Process(rmngr*)\% Processor Time
+\Process(rmngr*)\Private Bytes
+\Process(rmngr*)\Virtual Bytes
+\Processor(_Total)\% Processor Time
+\System\Processor Queue Length
+\Network Interface(*)\Bytes Total/sec
